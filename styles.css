@@ -2,3 +2,50 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* Delete the div boxes for the logo and ul, they are useless */
+
+.navbar-left {
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-right ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  padding-left: 0;
+}
+
+.navbar-right ul li {
+}
+
+.navbar-right ul li a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 0;
+}
