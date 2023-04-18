@@ -3,6 +3,8 @@ body {
   padding: 0;
 }
 
+/* Hero Section */
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -13,14 +15,11 @@ body {
   justify-content: space-between;
   background-color: #1f2937;
   color: #f9faf8;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 /* Delete the div boxes for the logo and ul, they are useless */
-
-.navbar-left {
-}
 
 .logo {
   color: #f9faf8;
@@ -40,12 +39,71 @@ body {
   padding-left: 0;
 }
 
-.navbar-right ul li {
-}
-
 .navbar-right ul li a {
   text-decoration: none;
   color: #f9faf8;
   font-size: 18px;
   padding: 0;
 }
+
+.hero-main {
+  background-color: #1f2937;
+  display: flex;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 50px;
+  padding-bottom: 110px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-main-left {
+  color: #f9faf8;
+  flex: 1;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero-main-left h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-size: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 150px;
+}
+
+.hero-main-left p {
+  font-size: 20px;
+  color: #e5e7eb;
+  margin-right: 50px;
+}
+
+.hero-main-left button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 140px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+.hero-main-right {
+  color: #f9faf8;
+  flex: 1;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: gray;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Information Section */
